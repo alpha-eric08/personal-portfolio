@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='bg-[#F1F5F6] w-full pb-10'>
         <div className='text-lg font-normal md:flex justify-around grid  pt-10'>
-            <div className='hover:bg-black hover:px-5 my-10 md:my-0 hover:py-3 rounded-md cursor-pointer transition-all duration-300 ease-out hover:text-white'>
+            <div className='my-10 md:my-0 cursor-pointer'>
                 <div className=' mx-auto w-8 mb-1'>
                     <Smartphone size={30} />
                 </div>
@@ -13,7 +13,7 @@ const Footer = () => {
                     <a href="0554139957">+233 55 413 9957</a>
                 </h1>
             </div>
-            <div className='hover:bg-black hover:px-5 my-10 md:my-0 hover:py-3 rounded-md cursor-pointer transition-all duration-300 ease-out hover:text-white'>
+            <div className='my-10 md:my-0 cursor-pointer'>
                 <div className='flex justify-center'>
                     <Mail size={30} />
                 </div>
