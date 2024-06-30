@@ -1,4 +1,4 @@
-import { Mail } from 'lucide-react'
+import { Mail, MapPin, Phone } from 'lucide-react'
 import React from 'react'
 
 const Reachout = () => {
@@ -11,10 +11,10 @@ const Reachout = () => {
         <div className='flex justify-between pt-20'>
              <div className='hover:bg-black hover:px-5 hover:py-3 rounded-md cursor-pointer transition-all duration-300 ease-out'>
                 <div className='flex justify-center mb-5'>
-                    <Mail size={30} />
+                    <Phone size={30} />
                 </div>
                 <h1 >
-                    <a href="#">email@domain.com</a>
+                    <a href="#">+233 554 139 957</a>
                 </h1>
             </div>
             <div className='hover:bg-black hover:px-5 hover:py-3 rounded-md cursor-pointer transition-all duration-300 ease-out'>
@@ -22,18 +22,18 @@ const Reachout = () => {
                     <Mail size={30} />
                 </div>
                 <h1 >
-                    <a href="#">email@domain.com</a>
+                    <a href="#">owusuansaheric08@gmail.com</a>
                 </h1>
             </div>
             
         </div>
-        <div className='flex justify-center mt-10 hover:bg-black hover:px-5 hover:py-3 rounded-md cursor-pointer transition-all duration-300 ease-out'>
+        <div className='flex justify-center mt-10 hover:bg-black hover:px-5 hover:py-3 rounded-md cursor-pointer transition-all duration-300 ease-out text-3xl'>
             <div>
               <div className='flex justify-center mb-5'>
-                <Mail size={30} />
+                <MapPin size={30} />
               </div>
-              <h1 >
-                <a href="#">email@domain.com</a>
+              <h1 className=''>
+                <a href="#">Kwadaso-Kumasi, Ghana</a>
               </h1>
             </div>
         </div>
