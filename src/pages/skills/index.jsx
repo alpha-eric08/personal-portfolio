@@ -6,7 +6,7 @@ import DesignSkills from '../../Components/DesignSkills'
 
 const Skills = () => {
   return (
-    <div>
+    <div id='skills'>
       <h1 className='font-medium text-4xl px-12 pt-20 pb-16'>SKILLS</h1>
       <div className='grid md:grid-cols-2'>
         <DevSkills />
